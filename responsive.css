@@ -1,0 +1,256 @@
+@media (max-width: 600px) {
+
+    .container {
+        
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 24px;
+        margin-left: 0px;
+    }
+
+    a {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+
+    header {
+        background-color: rgba(250, 253, 248, 0.9);
+        height: 44px;
+        
+        max-width: 374px;
+        left: 8px;
+        width: 100%;
+        
+        
+        z-index: 10;
+    }
+
+    .header-left {
+    display: block;
+    text-align: center;
+    left: 150px;
+    }
+
+    header img {
+        width: 100px;
+        display: flex;
+        padding-top: 3px;
+        
+    }
+
+    .header-right {
+        display: none;
+    }
+
+
+    .menu-zone {
+        width: 100%;
+    }
+
+    .mainvisual {
+        margin-top: 44px;
+        height: 400px;
+        background-image: url(main-visual/spbackground2.jpg);
+        background-size: cover;
+    }
+
+    .mainvisual-pc {
+        display: none;
+    }
+
+    .mainvisual-sp {
+        display: block;
+        
+        background-image: url(main-visual/spbackground.jpg);
+        background-size: cover;
+    }
+
+    .concept h1 {
+        font-family: Naresuan;
+        font-size: 20px;
+        color: #ea8943;
+        letter-spacing: 3px;
+
+        position: absolute;
+        top: 44px;
+        left: 140px;
+
+    }
+
+    .concept h4 {
+        position: absolute;
+        top: 50px;
+        left: 10%;
+        right: 10%;
+
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #676965;
+        font-family: bilo, sans-serif;
+        font-weight: 330;
+        font-style: normal;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .concept {
+        height: 230px;
+        background-image: url(our-story/our-hope-background.png);
+        background-size: cover;
+    
+        position: relative;
+    }
+
+    #menu {
+        width: 100%;
+    }
+
+    .menu-zone {
+        height: 1045px;
+    }
+
+    .menu-h1 {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 40px;
+
+    }
+
+    .menu-zone h1 {
+        font-family: Naresuan;
+        font-size: 20px;
+        color: #ea8943;
+        letter-spacing: 3px;
+
+
+        padding-top: 15px;
+        padding-bottom: 0px;
+        margin: 0;
+        
+    }
+
+    .menu-icon-1 {
+        padding-top: 35px;
+    }
+
+    .menu-icon-1 p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .muu-krata-set {
+        width: 100%;
+    }
+
+    .menu-icon p {
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    .menu-icon {
+        width: 50%;
+    }
+
+    .menu-icon img {
+        width: 85%;
+    }
+
+    .photos {
+        height: 560px;
+    }
+
+    .photos h1 {
+        font-family: Naresuan;
+        font-size: 20px;
+        color: #ea8943;
+        letter-spacing: 3px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .slider-for {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 0 0 0 0;
+    }
+
+    .slider-nav {
+        max-width: 300px;
+        margin: 0 auto;
+        padding: 0 0 0 0;
+        margin-top: 10px;
+    }
+
+    .access {
+        height: 450px;
+    }
+
+    .access h1 {
+        font-family: Naresuan;
+        font-size: 20px;
+        color: #ea8943;
+        letter-spacing: 3px;
+        padding-top: 70px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .col-2 .item  {
+        width: calc((100% - 600px)/2);
+        justify-content: center;
+        
+    }
+
+    .item p {
+        font-family: Bilo;
+        font-size: 10px;
+        letter-spacing: 1px;
+        color: #676965;
+        padding-top: 5px;
+        line-height: 15px;
+        padding-left: 0px;
+    }
+
+    iframe {
+        width: 95%;
+        aspect-ratio: 16/9; 
+      }
+
+      .gmap {
+        height: auto;
+        width: 95%;
+    }
+
+    .button {
+        display: inline-block;
+        position: absolute;
+        bottom: -84px;
+        left: -113px;
+        margin: 0 auto;
+    
+        width: 200px;
+        height: 43px;
+        background-color: #b0cd94;
+        text-align: center;
+        line-height: 43px;
+        border-radius: 30px;
+        color: #fafdf8;
+        border: 0.35px solid #5a6d48;
+        font-family: Bilo;
+        font-size: 16px;
+        
+        letter-spacing: 0px;
+    
+        transition: all 0.7s;
+    }
+
+    footer {
+        height: 230px;
+    background-image: url(main-visual/footer-background-sp.jpg);
+    background-size: 100%;
+    }
+}
