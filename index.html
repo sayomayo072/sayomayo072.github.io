@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>๙โบราณกาล</title>
+
+    <!-- スタイルシート -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- フォントの読み込み -->
+    <link rel="stylesheet" href="https://use.typekit.net/jgf0dwr.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jgf0dwr.css">
+
+    <!-- slickのCSSの読み込み -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <!-- レスポンシブデザイン対応 viewportの読み込み-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- レスポンシブデザインのファイルの読み込み -->
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img class="logo" src="9-logo.png">
+            </div>
+            <div class="header-right">
+                <a class="login" href="#access">ACCESS</a>
+                <a class="login" href="#photos">PHOTOS</a>
+                <a class="login" href="#menu">MENU</a>
+                <a class="login" href="#concept">CONCEPT</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="mainvisual">
+        <img class="mainvisual-pc" src="main-visual/mainbackground.jpeg" alt="">
+        <img class="mainvisual-sp" src="main-visual/spbackground.jpeg" alt="">
+    </div>
+
+    <div class="concept" id="concept">
+            <div class="container">
+                <h1>OUR HOPE</h1>
+                <h4>We do hope that this place will be <br>
+                    your another home to can relax and enjoy nature <br>
+                    with your favorite dished that you can afford.</h4>
+            </div>
+    </div>
+
+
+    <div class="menu-zone" id="menu">
+        <div class="container">
+            <div class="menu-h1">
+                <h1>MENU</h1>
+            </div>
+
+            <div class="menu-icon-1">
+                <img class="muu-krata-set" src="menu-picture/Muu-Krata-set.png" alt="">
+                <p>Muu Krata Set (999B)</p>
+            </div>
+
+            <div class="menu-icon">
+                <img class="akami" src="menu-picture/meat.png" alt="">
+                <p>Meat (229B)</p>
+            </div>
+
+            <div class="menu-icon">
+                <img class="sam-chan" src="menu-picture/Sam-Chan.png" alt="">
+                <p>Sam Chan (229B)</p>
+            </div>
+
+            <div class="menu-icon">
+                <img class="pork" src="menu-picture/pork.png" alt="">
+                <p>Pork (229B)</p>
+            </div>
+
+            <div class="menu-icon">
+                <img class="fish" src="menu-picture/fish.png" alt="">
+                <p>Fish (229B)</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="photos" id="photos">
+        <div class="container1">
+            <h1>PHOTOS</h1>
+
+            <ul class="slider-for">
+                <!-- 上に表示される大きいサムネイルの方の画像 -->
+                <li><img src="photos/img1.jpeg" alt=""></li>
+                <li><img src="photos/img2.jpeg" alt=""></li>
+                <li><img src="photos/img3.jpeg" alt=""></li>
+                <li><img src="photos/img4.jpeg" alt=""></li>
+                <li><img src="photos/img5.jpeg" alt=""></li>
+                <li><img src="photos/img6.jpeg" alt=""></li>
+                <li><img src="photos/img7.jpeg" alt=""></li>
+                <li><img src="photos/img8.jpeg" alt=""></li>
+                
+                
+            </ul>
+            <ul class="slider-nav">
+                <!-- 上に表示される大きいサムネイルの方の画像 -->
+                <li><img src="photos/img1.jpeg" alt=""></li>
+                <li><img src="photos/img2.jpeg" alt=""></li>
+                <li><img src="photos/img3.jpeg" alt=""></li>
+                <li><img src="photos/img4.jpeg" alt=""></li>
+                <li><img src="photos/img5.jpeg" alt=""></li>
+                <li><img src="photos/img6.jpeg" alt=""></li>
+                <li><img src="photos/img7.jpeg" alt=""></li>
+                <li><img src="photos/img8.jpeg" alt=""></li>
+            </ul>
+        </div>
+    </div>
+    
+<!-- jQuery/slickの読み込み -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+
+    $(function() {
+
+        $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        dots: true,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
+    });
+
+</script>
+
+<div class="access" id="access">
+    <h1>ACCESS</h1>
+
+    <div class="col-2">
+        
+        <div class="item">
+            
+                <div class="gmap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.7923055259953!2d102.55296258126539!3d13.79139046185708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311b0fbaecadd561%3A0xfeeeb0fbe43ddbc3!2z4LmZ4LmC4Lia4Lij4Liy4LiT4LiB4Liy4Lil!5e0!3m2!1sja!2sjp!4v1693146131554!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            
+        </div>
+
+        <div class="item">
+            <p>308 Nong Sang, <br>
+            Aranyaprathet District, <br>
+            Sa Kaeo, 27120, Thailand
+            <br>
+            
+            Open : 10:00〜22:00 (Close on Monday)
+            </p>
+            <br>
+
+            <a class="button" href="https://www.google.com/maps/place/%E0%B9%99%E0%B9%82%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%93%E0%B8%81%E0%B8%B2%E0%B8%A5/@13.7913905,102.5529626,17z/data=!4m11!1m3!11m2!2sHT6nxYPoYKNtu6qSRf5CBqsNeLGfIg!3e1!3m6!1s0x311b0fbaecadd561:0xfeeeb0fbe43ddbc3!8m2!3d13.7913853!4d102.5578335!15sCgEqWgMiASqSAQpyZXN0YXVyYW504AEA!16s%2Fg%2F11lkxs8w5y?hl=ja&entry=ttu">Open Google Map</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+
+</footer>
+
+
+</body>
+
+</html>
