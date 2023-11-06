@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+header {
+    background-color: rgba(250, 253, 248, 0.9);
+    height: 65px;
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+header img {
+    width: 202px;
+    margin-top: 5px;
+}
+
+.header-right a {
+    float: right;
+    display: block;
+    line-height: 65px;
+    margin: 0px 30px;
+    color: #676965;
+    font-family: Naresuan;
+    font-size: 24px;
+    opacity: 1;
+
+    transition: 0.9s;
+}
+
+a:hover {
+    opacity: 1;
+    color: #ea8943;
+}
+
+
+
+.mainvisual {
+    
+    height: 530px;
+    margin-top: 65px;
+}
+
+.mainvisual img {
+    width: 100%;
+}
+
+.mainvisual-sp {
+    display: none;
+}
+
+
+
+.concept {
+    height: 500px;
+    background-image: url(our-story/our-hope-background.png);
+    background-size: cover;
+
+    position: relative;
+}
+
+
+.concept h1 {
+    font-family: Naresuan;
+    font-size: 30px;
+    color: #ea8943;
+    letter-spacing: 5px;
+
+    position: absolute;
+    top: 105px;
+    left: 632px;
+}
+
+.concept h4 {
+    position: absolute;
+    top:150px;
+    left: 440px;
+
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #676965;
+    font-family: bilo, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 60px;
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+
+
+
+.menu-zone {
+    background-color: #fafdf8;
+    height: 1700px;
+}
+
+.menu-h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.menu-zone h1 {
+    font-family: Naresuan;
+    font-size: 30px;
+    color: #ea8943;
+    letter-spacing: 5px;
+
+
+    padding-top: 30px;
+    margin: 0;
+}
+
+.menu-icon-1 {
+    padding-top: 50px;
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+.menu-icon {
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding: 30px 0px 20px 0px;
+}
+
+.menu-zone p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #676965;
+    font-family: bilo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.photos {
+    background-color: #6b5849;
+    height: 960px;
+}
+
+.photos h1 {
+    font-family: Naresuan;
+    font-size: 30px;
+    color: #ea8943;
+    letter-spacing: 5px;
+    padding-top: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.slider-for {
+    max-width: 760px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    margin-top: 68px;
+    
+}
+
+.slider-nav {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.slider-for img {
+    width: 100%;
+}
+
+.slider-nav img {
+    width: 100%;
+}
+
+.access {
+    background-color: #fafdf8;
+    height: 700px;
+}
+
+.access h1 {
+    font-family: Naresuan;
+    font-size: 30px;
+    color: #ea8943;
+    letter-spacing: 5px;
+    padding-top: 90px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col-2 {
+    width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    margin-top: 68px;
+
+    
+}
+
+.item {
+    display: flex;
+    position: relative;
+}
+
+.col-2 .item  {
+    width: calc((100% - 24px)/2);
+    justify-content: center;
+    
+}
+
+.item p {
+    font-family: Bilo;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #676965;
+    padding-top: 35px;
+    line-height: 30px;
+    padding-left: 40px;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9; 
+  }
+
+.gmap {
+    height: auto;
+    width: 100%;
+}
+
+.button {
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+
+    width: 240px;
+    height: 43px;
+    background-color: #b0cd94;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 30px;
+    color: #fafdf8;
+    border: 0.35px solid #5a6d48;
+    font-family: Bilo;
+    font-size: 18px;
+    
+    letter-spacing: 1px;
+
+    transition: all 0.7s;
+}
+
+.button:hover {
+    background-color: #b8d999;
+}
+
+footer {
+    height: 230px;
+    background-image: url(our-story/footer-background.png);
+    background-size: cover;
+
+}
